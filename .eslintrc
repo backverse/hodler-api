@@ -5,5 +5,8 @@
   },
   "parser": "@typescript-eslint/parser",
   "extends": ["prettier"],
-  "plugins": ["@typescript-eslint"]
+  "plugins": ["@typescript-eslint", "unused-imports"],
+  "rules": {
+    "unused-imports/no-unused-imports": "error"
+  }
 }
